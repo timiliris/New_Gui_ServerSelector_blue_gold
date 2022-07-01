@@ -1,0 +1,6 @@
+info:
+  namespace: "newgui"
+font_images:
+  server_selector:
+    path: "font/gui/server_selector.png"
+    y_position: 47

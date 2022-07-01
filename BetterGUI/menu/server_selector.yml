@@ -1,0 +1,113 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&f%img_offset_-12%%img_server_selector%'  
+  inventory-type: CHEST
+  rows: 6
+  command: game
+  auto-refresh: 5
+
+
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: air
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+
+# -----> START SURVIVAL SECTION <-------
+
+Survival:
+  id: air 
+  slot: 0,1,2,3,9,10,11,12
+  name: '&cSurvival'
+  close-on-click: true
+
+  # ★★★ START CONFIG ★★★
+
+  action:
+  # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
+  - 'server: Serv02EU'
+  # --> single server configuration (delete the # of the config you need) <---
+  #- '/tp {player} 0 0 0 '
+  #- '/mvtp {player} world'
+
+  # ★★★ END CONFIG ★★★
+
+  # -----> END SURVIVAL SECTION <-------
+
+  # -----> START CREATIVE SECTION <-------
+
+Creative:
+  id: air 
+  slot: 5,6,7,8,14,15,16,17
+  name: '&cCreative'
+  close-on-click: true
+
+  # ★★★ START CONFIG ★★★
+
+  action:
+  # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
+  - 'server: Serv02EU'
+  # --> single server configuration (delete the # of the config you need) <---
+  #- '/tp {player} 0 0 0 '
+  #- '/mvtp {player} world'd'
+
+  # ★★★ END CONFIG ★★★
+
+# -----> END CREATIVE SECTION <-------
+
+# -----> START SKYBLOCK SECTION <------- 
+
+Skyblock:
+  id: air 
+  slot: 36,37,38,39,45,46,47,48
+  name: '&cSkyblock'
+  close-on-click: true
+
+  # ★★★ START CONFIG ★★★
+
+  action:
+  # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
+  - 'server: Serv02EU'
+  # --> single server configuration (delete the # of the config you need) <---
+  #- '/tp {player} 0 0 0 '
+  #- '/mvtp {player} world'
+
+# ★★★ END CONFIG ★★★
+
+# -----> END SKYBLOCK SECTION <-------
+
+# -----> START BEDWARS SECTION <-------
+
+Bedwars:
+  id: air 
+  slot: 41,42,43,44,50,52,53,54
+  name: '&cBedrock'
+  close-on-click: true
+
+# ★★★ START CONFIG ★★★
+
+  action:
+  # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
+  - 'server: Serv02EU'
+  # --> single server configuration (delete the # of the config you need) <---
+  #- '/tp {player} 0 0 0 '
+  #- '/mvtp {player} world'
+
+# ★★★ END CONFIG ★★★
+
+# -----> END BEDWARS SECTION <-------
