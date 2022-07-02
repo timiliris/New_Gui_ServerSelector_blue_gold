@@ -38,13 +38,14 @@ Survival:
 
   # ★★★ START CONFIG ★★★
 
-  action:
+  COMMAND:
+   LEFT: 'server: <yourservername>'
   # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
-  - 'server: Serv02EU'
+
   # --> single server configuration (delete the # of the config you need) <---
   #- '/tp {player} 0 0 0 '
   #- '/mvtp {player} world'
-
+   RIGHT: 'tell: Server survival : description : version '
   # ★★★ END CONFIG ★★★
 
   # -----> END SURVIVAL SECTION <-------
@@ -59,12 +60,14 @@ Creative:
 
   # ★★★ START CONFIG ★★★
 
-  action:
+  COMMAND:
+   LEFT: 'server: <yourservername>'
   # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
-  - 'server: Serv02EU'
+
   # --> single server configuration (delete the # of the config you need) <---
   #- '/tp {player} 0 0 0 '
-  #- '/mvtp {player} world'd'
+  #- '/mvtp {player} world'
+   RIGHT: 'tell: Server creative : description : version '
 
   # ★★★ END CONFIG ★★★
 
@@ -80,12 +83,14 @@ Skyblock:
 
   # ★★★ START CONFIG ★★★
 
-  action:
+  COMMAND:
+   LEFT: 'server: <yourservername>'
   # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
-  - 'server: Serv02EU'
+
   # --> single server configuration (delete the # of the config you need) <---
   #- '/tp {player} 0 0 0 '
   #- '/mvtp {player} world'
+   RIGHT: 'tell: Server skyblock : description : version '
 
 # ★★★ END CONFIG ★★★
 
@@ -96,17 +101,19 @@ Skyblock:
 Bedwars:
   id: air 
   slot: 41,42,43,44,50,52,53,54
-  name: '&cBedrock'
+  name: '&cBedwars'
   close-on-click: true
 
 # ★★★ START CONFIG ★★★
 
-  action:
+  COMMAND:
+   LEFT: 'server: <yourservername>'
   # --> Bungeecord configuration (delete this config if you don't have a bunggecord server) <----
-  - 'server: Serv02EU'
+
   # --> single server configuration (delete the # of the config you need) <---
   #- '/tp {player} 0 0 0 '
   #- '/mvtp {player} world'
+   RIGHT: 'tell: Server Bedwars : description : version '
 
 # ★★★ END CONFIG ★★★
 
