@@ -4,7 +4,7 @@
 #+                  +#
 ######################
 menu-settings:
-  name: '&f%img_offset_-12%%img_server_selector%'  
+  name: '&f%img_offset_-12%%server_selector%' #for old version user   '&f%img_offset_-12%%img_server_selector%'
   inventory-type: CHEST
   rows: 6
   command: game
